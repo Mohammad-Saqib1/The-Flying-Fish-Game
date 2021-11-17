@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/splash_textView"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/splash_image"
+        android:src="@drawable/splash_icon" />
+
+    <TextView
+        android:id="@+id/splash_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/the_flying_fish"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="35sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/splash_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_imageView"
+
+        android:layout_marginTop="10dp"
+        android:text="@string/developed_by_saqib"
+        android:textAlignment="center"
+        android:textColor="#660000"
+        android:textSize="35sp"
+
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/splash_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFC400"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Play"
+            android:layout_weight="1"
+             />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC400"
+            android:text="Exit"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

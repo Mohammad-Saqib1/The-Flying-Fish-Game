@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_image">Splash Image</string>
+    <string name="the_flying_fish">The Flying Fish</string>
+    <string name="developed_by_mohammad_saqib">Developed By Mohammad Saqib</string>
+    <string name="developed_by_saqib">Developed By Saqib</string>
+    <string name="game_over">Game Over</string>
+    <string name="play_again">Play Again</string>
+</resources>
